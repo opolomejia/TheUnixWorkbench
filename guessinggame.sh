@@ -15,7 +15,7 @@ do
 	if [[ $nguess -eq $fileNumber ]]
 	then
 	 echo "Congrats! You found the number!! "
-	 let guess=true
+	 guess=true
 	elif [[ $nguess -lt $fileNumber ]]
 	then
 	 echo "Your guess is too small, try again"
