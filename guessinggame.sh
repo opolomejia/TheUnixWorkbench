@@ -8,8 +8,6 @@ function runGame(){
 fileNumber="$(getFileNumber)"
 guess=false
 
-count=3
-
 while [[ $guess = false ]]
 do
 	echo 'Guess the number of files in the current directory: '
